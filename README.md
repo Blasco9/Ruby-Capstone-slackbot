@@ -46,7 +46,7 @@ https://media.giphy.com/media/cjKZOcp8tPWznMip9Z/giphy.gif
 
 ### Commands
 
-[help](./GIF1.gif)
+[help](./Animated GIF-1.gif)
 
 [recommend me a movie and show](./GIF2.gif)
 
