@@ -54,10 +54,10 @@ https://media.giphy.com/media/cjKZOcp8tPWznMip9Z/giphy.gif
 
 ## Authors
 
-👤 **Author1**
+👤 **Julian Blasco**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/Blasco9)
+- Linkedin: [linkedin](https://www.linkedin.com/in/julian-augusto-blasco-1656a0153/)
 
 ## 🤝 Contributing
 
