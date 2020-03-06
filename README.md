@@ -35,22 +35,22 @@ bundle install
 ### Usage
 
 To start using the bot you need to export your slack api token
-export SLACK_API_TOKEN=<your token>
+export SLACK_API_TOKEN=(your token)
 
 Once you have done that you can run it by typing
 bundle exec ruby public/slack_bot.rb
 
 After the bot is runing you can invite it to your channel
 
-https://media.giphy.com/media/cjKZOcp8tPWznMip9Z/giphy.gif
+[invite](./gifs/Animated-GIF-1.gif)
 
 ### Commands
 
-[help](./Animated GIF-1.gif)
+[help](./gifs/Animated-GIF-2.gif)
 
-[recommend me a movie and show](./GIF2.gif)
+[recommend me a movie and show](./gifs/Animated-GIF-3.gif)
 
-[recommend for genre](./GIF3.gif)
+[recommend for genre](./gifs/Animated-GIF-4.gif)
 
 ## Authors
 
