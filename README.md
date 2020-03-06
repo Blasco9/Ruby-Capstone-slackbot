@@ -1,42 +1,59 @@
 # Project Name
 
-> One paragraph statement about the project.
+> This is my Ruby capstone project from the Microverse curriculum
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+This project consists of a bot created in Ruby that connects to the Slack API and The Movie Database API to give recommendations of movies and shows to watch
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- slack-ruby-bot
+- celluloid-io
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+You will need to:
+- Create a Slack workspace [here](https://slack.com/create#email)
+- Have a Slack API Token. You can get one by creating an app [here](http://slack.com/services/new/bot)
+
+To complete the installations you should have installed:
+- Ruby
+- Bundler
 
 ### Install
 
+Download or clone the project
+
+Then to install all the dependencies run
+
+bundle install 
+
 ### Usage
 
-### Run tests
+To start using the bot you need to export your slack api token
+export SLACK_API_TOKEN=<your token>
 
-### Deployment
+Once you have done that you can run it by typing
+bundle exec ruby public/slack_bot.rb
 
+After the bot is runing you can invite it to your channel
+
+https://media.giphy.com/media/cjKZOcp8tPWznMip9Z/giphy.gif
+
+### Commands
+
+help
+https://media.giphy.com/media/efrJeJ50Lf62OOvnVf/giphy.gif
+
+recommend me a movie and show
+https://media.giphy.com/media/idH92opyl95Aho14qU/giphy.gif
+
+recommend for genre
+https://media.giphy.com/media/d5YRUCGdovWKY4C6T8/giphy.gif
 
 
 ## Authors
@@ -44,13 +61,6 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author1**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
@@ -65,9 +75,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This project was possible thanks to The Movie Database API and the creator of the Slack Ruby Bot gem
 
 ## 📝 License
 
