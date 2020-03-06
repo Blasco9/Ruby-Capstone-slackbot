@@ -46,6 +46,7 @@ https://media.giphy.com/media/cjKZOcp8tPWznMip9Z/giphy.gif
 
 ### Commands
 
+<iframe src="https://giphy.com/embed/efrJeJ50Lf62OOvnVf" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/efrJeJ50Lf62OOvnVf">via GIPHY</a></p>
 help
 https://media.giphy.com/media/efrJeJ50Lf62OOvnVf/giphy.gif
 
