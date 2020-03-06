@@ -74,7 +74,7 @@ class Rubot < SlackRubyBot::Bot
     end
   end
 
-  def self.request_latest_movies
+  private_class_method def self.request_latest_movies
     begin
       response = JSON.parse(open("https://api.themoviedb.org/3/movie/popular?api_key=#{@tmdb_api_key}").read)
       movie = response['results'][rand(20)]
@@ -89,7 +89,7 @@ class Rubot < SlackRubyBot::Bot
     end
   end
 
-  def self.request_latest_shows
+  private_class_method def self.request_latest_shows
     begin
       response = JSON.parse(open("https://api.themoviedb.org/3/tv/popular?api_key=#{@tmdb_api_key}").read)
       show = response['results'][rand(20)]
@@ -104,7 +104,7 @@ class Rubot < SlackRubyBot::Bot
     end
   end
 
-  def self.request_movies_by_genre(genre)
+  private_class_method def self.request_movies_by_genre(genre)
     begin
       response = JSON.parse(
         open("https://api.themoviedb.org/3/discover/movie?api_key=#{@tmdb_api_key}&with_genres=#{genre}").read
@@ -121,7 +121,7 @@ class Rubot < SlackRubyBot::Bot
     end
   end
 
-  def self.request_shows_by_genre(genre)
+  private_class_method def self.request_shows_by_genre(genre)
     begin
       response = JSON.parse(
         open("https://api.themoviedb.org/3/discover/tv?api_key=#{@tmdb_api_key}&with_genres=#{genre}").read
@@ -138,14 +138,14 @@ class Rubot < SlackRubyBot::Bot
     end
   end
 
-  def self.request_movie_genres
+  private_class_method def self.request_movie_genres
     response = JSON.parse(open("https://api.themoviedb.org/3/genre/movie/list?api_key=#{@tmdb_api_key}").read)
     response['genres']
   rescue StandardError
     nil
   end
 
-  def self.request_show_genres
+  private_class_method def self.request_show_genres
     response = JSON.parse(open("https://api.themoviedb.org/3/genre/tv/list?api_key=#{@tmdb_api_key}").read)
     response['genres']
   rescue StandardError
