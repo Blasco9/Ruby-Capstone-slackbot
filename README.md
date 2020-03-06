@@ -46,16 +46,11 @@ https://media.giphy.com/media/cjKZOcp8tPWznMip9Z/giphy.gif
 
 ### Commands
 
-[help](https://media.giphy.com/media/efrJeJ50Lf62OOvnVf/giphy.gif)
+[help](./GIF1.gif)
 
-[help](./gi1.mp4)
+[recommend me a movie and show](./GIF2.gif)
 
-recommend me a movie and show
-https://media.giphy.com/media/idH92opyl95Aho14qU/giphy.gif
-
-recommend for genre
-https://media.giphy.com/media/d5YRUCGdovWKY4C6T8/giphy.gif
-
+[recommend for genre](./GIF3.gif)
 
 ## Authors
 
