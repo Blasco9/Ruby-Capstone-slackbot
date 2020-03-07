@@ -50,13 +50,16 @@ After the bot is runing you can invite it to your channel
 
 ## Commands
 
-**help**
+### help
+
 ![help](./gifs/Animated-GIF-2.gif)
 
-**recommend me a movie** / **recommend me a show**
+### recommend me a movie / recommend me a show
+
 ![recommend me a movie and show](./gifs/Animated-GIF-3.gif)
 
-**recommend me a movie (genre)** / **recommend me a show (genre)**
+### recommend me a movie (genre) / recommend me a show (genre)
+
 ![recommend for genre](./gifs/Animated-GIF-4.gif)
 
 ## Authors
