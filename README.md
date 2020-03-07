@@ -1,4 +1,4 @@
-# Ruby Slack Bot
+# Ruby Slack Bot 
 
 > This is my Ruby capstone project from the Microverse curriculum
 
@@ -38,20 +38,25 @@ To start using the bot you need to export your slack api token
 
 `export SLACK_API_TOKEN=<your token>`
 
+
 Once you have done that you can run it by typing
 
 `bundle exec ruby public/slack_bot.rb`
+
 
 After the bot is runing you can invite it to your channel
 
 ![invite](./gifs/Animated-GIF-1.gif)
 
-### Commands
+## Commands
 
+**help**
 ![help](./gifs/Animated-GIF-2.gif)
 
+**recommend me a movie** / **recommend me a show**
 ![recommend me a movie and show](./gifs/Animated-GIF-3.gif)
 
+**recommend me a movie (genre)** / **recommend me a show (genre)**
 ![recommend for genre](./gifs/Animated-GIF-4.gif)
 
 ## Authors
