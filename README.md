@@ -9,6 +9,7 @@ For this project I built a bot in Ruby that connects to the Slack API and The Mo
 - Ruby
 - slack-ruby-bot
 - celluloid-io
+- dotenv
 
 ## Getting Started
 
@@ -37,7 +38,7 @@ To complete the installations you should have installed:
 
 To start using the bot you'll need to create a file named .env in the root folder and paste the following inside 
 
-`export SLACK_API_TOKEN=<your token>
+`export SLACK_API_TOKEN=<your token>  
 TMDB_API_KEY=<your key>`
 
 
