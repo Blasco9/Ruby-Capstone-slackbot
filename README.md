@@ -19,6 +19,7 @@ To get a local copy up and running follow these simple example steps.
 You will need to:
 - Create a Slack workspace [here](https://slack.com/create#email)
 - Have a Slack API Token. You can get one by creating an app [here](http://slack.com/services/new/bot)
+- Have a TMDB API Key. First, register [here](https://www.themoviedb.org/account/signup) if you don't already have an account, then follow [these](https://developers.themoviedb.org/3/getting-started/introduction) instructions
 
 To complete the installations you should have installed:
 - Ruby
@@ -34,14 +35,15 @@ To complete the installations you should have installed:
 
 ### Usage
 
-To start using the bot you need to export your slack api token
+To start using the bot you'll need to create a file named .env in the root folder and paste the following inside 
 
-`export SLACK_API_TOKEN=<your token>`
+`export SLACK_API_TOKEN=<your token>
+TMDB_API_KEY=<your key>`
 
 
 Once you have done that you can run it by typing
 
-`bundle exec ruby public/slack_bot.rb`
+`bundle exec ruby bin/main.rb`
 
 
 After the bot is runing you can invite it to your channel
