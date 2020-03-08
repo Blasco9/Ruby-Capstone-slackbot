@@ -38,8 +38,9 @@ To complete the installations you should have installed:
 
 To start using the bot you'll need to create a file named .env in the root folder and paste the following inside 
 
-`export SLACK_API_TOKEN=<your token>  
-TMDB_API_KEY=<your key>`
+`export SLACK_API_TOKEN=<your token>`
+
+`TMDB_API_KEY=<your key>`
 
 
 Once you have done that you can run it by typing
