@@ -1,57 +1,77 @@
-# Project Name
+# Ruby Slack Bot 
 
-> One paragraph statement about the project.
+> This is my Ruby capstone project from the Microverse curriculum
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+For this project I built a bot in Ruby that connects to the Slack API and The Movie Database API to give recommendations of movies and shows to watch
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- slack-ruby-bot
+- celluloid-io
+- dotenv
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+You will need to:
+- Create a Slack workspace [here](https://slack.com/create#email)
+- Have a Slack API Token. You can get one by creating an app [here](http://slack.com/services/new/bot)
+- Have a TMDB API Key. First, register [here](https://www.themoviedb.org/account/signup) if you don't already have an account, then follow [these](https://developers.themoviedb.org/3/getting-started/introduction) instructions
+
+To complete the installations you should have installed:
+- Ruby
+- Bundler
 
 ### Install
 
+- Download or clone the project
+
+- Then to install all the dependencies run
+
+  `bundle install `
+
 ### Usage
 
-### Run tests
+To start using the bot you'll need to create a file named .env in the root folder and paste the following inside 
 
-### Deployment
+`export SLACK_API_TOKEN=<your token>`
+
+`TMDB_API_KEY=<your key>`
 
 
+Once you have done that you can run it by typing
+
+`bundle exec ruby bin/main.rb`
+
+
+After the bot is runing you can invite it to your channel
+
+![invite](./gifs/Animated-GIF-1.gif)
+
+## Commands
+
+### help
+
+![help](./gifs/Animated-GIF-2.gif)
+
+### recommend me a movie / recommend me a show
+
+![recommend me a movie and show](./gifs/Animated-GIF-3.gif)
+
+### recommend me a movie (genre) / recommend me a show (genre)
+
+![recommend for genre](./gifs/Animated-GIF-4.gif)
 
 ## Authors
 
-👤 **Author1**
+👤 **Julian Blasco**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Blasco9](https://github.com/Blasco9)
+- Linkedin: [Julian Augusto Blasco](https://www.linkedin.com/in/julian-augusto-blasco-1656a0153/)
 
 ## 🤝 Contributing
 
@@ -65,9 +85,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This project was possible thanks to The Movie Database API and the creator of the Slack Ruby Bot gem
 
 ## 📝 License
 
