@@ -1,8 +1,8 @@
 # Ruby Slack Bot 
 
-> This is my Ruby capstone project from the Microverse curriculum
+> This is my Ruby Capstone project from the Microverse curriculum.
 
-For this project I built a bot in Ruby that connects to the Slack API and The Movie Database API to give recommendations of movies and shows to watch
+For this project, I built a bot in Ruby that connects to the Slack API and The Movie Database API to give recommendations of movies and shows to watch.
 
 ## Built With
 
@@ -22,7 +22,7 @@ You will need to:
 - Have a Slack API Token. You can get one by creating an app [here](http://slack.com/services/new/bot)
 - Have a TMDB API Key. First, register [here](https://www.themoviedb.org/account/signup) if you don't already have an account, then follow [these](https://developers.themoviedb.org/3/getting-started/introduction) instructions
 
-To complete the installations you should have installed:
+To complete the setup, you should have installed:
 - Ruby
 - Bundler
 
@@ -36,7 +36,7 @@ To complete the installations you should have installed:
 
 ### Usage
 
-To start using the bot you'll need to create a file named .env in the root folder and paste the following inside 
+To start using the bot, you'll need to create a file named .env in the root folder and paste the following inside 
 
 `export SLACK_API_TOKEN=<your token>`
 
@@ -48,7 +48,7 @@ Once you have done that you can run it by typing
 `bundle exec ruby bin/main.rb`
 
 
-After the bot is runing you can invite it to your channel
+After the bot is running, you can invite it to your channel
 
 ![invite](./gifs/Animated-GIF-1.gif)
 
@@ -66,12 +66,13 @@ After the bot is runing you can invite it to your channel
 
 ![recommend for genre](./gifs/Animated-GIF-4.gif)
 
-## Authors
+## Author
 
 👤 **Julian Blasco**
 
 - Github: [@Blasco9](https://github.com/Blasco9)
-- Linkedin: [Julian Augusto Blasco](https://www.linkedin.com/in/julian-augusto-blasco-1656a0153/)
+- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-blasco/)
+- Email: blascoblasco9@gmail.com
 
 ## 🤝 Contributing
 
